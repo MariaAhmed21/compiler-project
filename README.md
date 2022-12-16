@@ -1,1 +1,5 @@
-# compiler-project
+#project title-phase1-
+use Lex tool for writing the scanner and Yacc tool to generat a parser for a programming language called O.
+
+#project description 
+A program in O has a very simple structure: it is just a sequence of statements separated by semicolon. There are no procedures. Variables either integer or double. There are only two control statements: an if-statement and a repeat-statement. Both control statements may themselves contain statement sequences. An if-statement has an optional else part and must be terminated by the keyword end. There are also read and write statements that perform input/output. Comments are allowed within two @ @.....@; comments cannot be nested. Expressions in O are also limited to boolean, double and integer arithmetic expressions. A boolean expression consists of a comparison of two arithmetic expressions using one of the comparison operators <, <=, >,>= ,==,<>. An arithmetic expression may involve integer or double constants, variables, parentheses, and any of the four integer operators +, -, ”, and /, with the usual mathematical properties. boolean expressions may appear only as tests in control statements -there are no Boolean variables.
